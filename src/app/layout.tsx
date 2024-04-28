@@ -18,12 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar>
-          <NavLink href="/admin">Dashboard</NavLink>
-          <NavLink href="/admin/products">Products</NavLink>
-          <NavLink href="/admin/customers">Customers</NavLink>
-          <NavLink href="/admin/sales">Sales</NavLink>
-        </NavBar>
         {children}
         </body>
     </html>
